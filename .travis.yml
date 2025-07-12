@@ -3,7 +3,7 @@ dist: focal
 language: python
 
 python:
-  - 3.8
+  - 3.12.4
 
 install:
   - sudo apt -y install python3-distutils
@@ -29,6 +29,6 @@ install:
   - ls bin/ -l
   - echo "TODO"
   - gem install dpl --pre
-  - dpl releases --token $GITHUB_TOKEN --file "bin/GlobalSecurity-0.2-armeabi-v7a-debug.apk" --tag_name "v.0.2"
+  - dpl releases --token $GITHUB_TOKEN --file "bin/globalsecurity-0.2-armeabi-v7a-debug.apk" --tag_name "v.0.1"
   - echo "TODO 2"
 
